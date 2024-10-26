@@ -36,9 +36,9 @@ home work for mse24 ml aipc
 ## 团队成员
 
 + [Hao Ba](674248666@qq.com)
-+ [Sheng YiLai]()
-+ [Jin YingJie]()
-+ [Xu DaHong]()
-+ [Li YunWei]()
++ [YiLai Sheng]()
++ [YingJie Jin]()
++ [DaHong Xu]()
++ [YunWei Li]()
 
 
