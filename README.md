@@ -32,7 +32,7 @@ home work for mse24 ml aipc
 ## 所引用模型与生成模型
 + [base model : bge reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 + [base model's github](https://github.com/FlagOpen/FlagEmbedding)
-+ [openvino(generate by this project)](https://huggingface.co/NumberEight/bge-reranker-v2-m3-openvino)
++ [openvino model (generate by this project)](https://huggingface.co/NumberEight/bge-reranker-v2-m3-openvino)
 ## 团队成员
 
 + [Hao Ba](674248666@qq.com)
