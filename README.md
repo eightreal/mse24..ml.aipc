@@ -1,4 +1,4 @@
-# mse24..ml.aipc
+# mse24.ml.aipc
 home work for mse24 ml aipc
 
 ## 项目介绍
@@ -11,7 +11,7 @@ home work for mse24 ml aipc
 
 1. 从google play中获取对应query的搜索结果
 2. 根据google play的搜索结果， 将其输入到大模型中，获得相关系数得分， 
-3. 根据step2的得分对结果进行重拍
+3. 根据step2的得分对结果进行重排
 
 ## 项目出发点
 
@@ -23,16 +23,16 @@ home work for mse24 ml aipc
 
 ## 项目中遇到的问题
 
-1. 对于模型预测中，一次性输入搜索候选集会出现内存溢出错误， 为解决， 我们采用逐次输入的方式
+1. 对于模型预测中，一次性输入搜索候选集会出现内存溢出错误， 为解决这个问题， 我们采用逐次输入的方式
 2. 排序得分是一个相对得分， 经过测试发现不同pairs中的同一app会出现不同的分数， 为解决该问题，采用固定pairs中的第一个item， 然后根据相除得到相对得分进行排序。
 
 ## 项目改进方向
-1. 如果有app store的具体行为信息那么，就可以构建具体的问-答 pairs，可以对模型进行进一步的调整
+1. 如果有app store的具体行为信息，那么就可以构建具体的 “问-答” pairs，可以对模型进行进一步的调整fine tune
 
 ## 所引用模型与生成模型
 + [base model : bge reranker](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 + [base model's github](https://github.com/FlagOpen/FlagEmbedding)
-+ [openvino(generate by this project)](https://huggingface.co/NumberEight/bge-reranker-v2-m3-openvino)
++ [openvino model (generate by this project)](https://huggingface.co/NumberEight/bge-reranker-v2-m3-openvino)
 ## 团队成员
 
 + [Hao Ba](674248666@qq.com)
